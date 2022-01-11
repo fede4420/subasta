@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#encabezado {
+    width: 360px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+#logo{
+    margin-left: 5px;
+}
+
+#nombreCategoria { 
+margin-left: 10px;
+}
+
+#cuadro {
+    height: 500px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+   margin: 15px 10px 5px 5px;
+   
+   
+}
+
+#cuadro img {
+    border-radius: 10px;
+}
+
+#anuncio1{
+    
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#anuncio2 {
+    height: 200px;
+    width: 150px;
+    margin-left: 15px;
+}
+#anuncio3 {
+
+    height: 200px;
+    width: 150px;
+    margin-left: 10px;
+}
+#anuncio4{
+
+    height: 200px;
+    width: 150px;
+    margin-left: 15px;
+}
+
+#pie {
+    width: 360px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.244);
+    margin-top: 10px;
+   text-align: center;
+   font-style: italic;
+}
+
+#pie p {
+   color: white;
+}

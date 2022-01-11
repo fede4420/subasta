@@ -1,0 +1,70 @@
+ .encabezado {
+    width: 360px;
+    height: 70px;
+    margin-left: 35px;
+}
+
+#logo {
+    height: 70px;
+    width: 270px;
+    text-align: center;
+}
+
+#principal {
+    margin-left: 15px;
+    height: 350px;
+    width: 320px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+#carrusel {
+    height: 180px;
+    width: 320px;
+    background-color: rgba(128, 128, 128, 0.244);
+}
+
+#simulador {
+    align-items: center;
+    height: 150px;
+    background-color: rgba(128, 128, 128, 0.244);
+}
+
+#apuesta {
+margin-top: 25px;
+}
+
+#botones {
+    margin-top: 30px;
+}
+
+#botones input {
+    height: 60px;
+    
+}
+
+#sinOferta { 
+    background-color: red;
+}
+
+#descripcion {
+    margin-left: 15px;
+    height: 60px;
+    width: 320px;
+}
+
+#pie {
+    width: 360px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.244);
+    margin-top: 540px;
+   text-align: center;
+   font-style: italic;
+}
+
+#pie p {
+   color: white;
+}

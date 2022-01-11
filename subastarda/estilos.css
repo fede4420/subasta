@@ -1,0 +1,150 @@
+* {
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+body p {
+    color: rgb(255, 150, 51);
+}
+nav {
+ 
+    width: 360px;
+    height: 60px;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 200px 60px;
+    margin-top: 5px;
+}
+nav ul li {
+    list-style-type: none;
+}
+
+.logoPagina img {
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+.usuario img{
+    height: 40px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 115px 210px;
+    width: 360px;
+    height: 275px;
+    margin-top: 5px;
+}
+
+.encabezado {
+    width: 115px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.244);
+    
+}
+.encabezado p {
+    margin-left: 5px;
+}
+
+.listaCategorias{
+    height: 250px;
+   margin: 5px 0px 0px;
+   padding: 0px 0px 0px 5px;
+   background-color: rgba(128, 128, 128, 0.244);
+}
+
+.listaCategorias li {
+    list-style: none;
+    line-height: 60px; 
+    
+}
+
+#cuadroPrincipal {
+    margin-left: 30px;
+}
+#encabezadoPrincipal {
+    width: 210px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.244);
+    text-align: center;
+}
+
+
+#lotes {
+    margin-top: 5px;
+    width: 210px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.logos {
+    width: 360px;
+    height: 70px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 30px;
+
+}
+
+
+
+.camino {
+    height: 60px;
+    width: 360px;
+    margin-top: 15px;
+   
+}
+
+.animacion {
+    height: 60px;
+    width: 30px;
+}
+
+.animacion {
+    animation-duration: 3s;
+    animation-name: animacion;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes animacion {
+    from {
+      margin-left:100%;
+      width: 360px;
+    }
+  
+    to {
+     margin-left:0%;
+     width:100px;
+   }
+  }
+
+/*footer*/
+
+#pie {
+    width: 360px;
+    height: 45px;
+    background-color: rgba(128, 128, 128, 0.244);
+    margin-top: 30px;
+   text-align: center;
+   font-style: italic;
+}
+
+#pie p {
+   color: white;
+}
